@@ -1,10 +1,9 @@
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
-  import Header from "@/views/header.vue"
-  
+import HelloWorld from '@/components/HelloWorld.vue'
+import Header from "@/views/Header.vue"
+
 </script>
 <template>
-  <Header/>
-  <HelloWorld />
- 
+  <Header />
+  <!-- <HelloWorld /> -->
 </template>
