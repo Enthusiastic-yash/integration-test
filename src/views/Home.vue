@@ -1,7 +1,6 @@
-<script setup>
-import Header from "@/views/Header.vue"
-
-</script>
 <template>
-  <Header />
+  <HeroSection />
 </template>
+<script setup>
+import HeroSection from "./HeroSection.vue";
+</script>
