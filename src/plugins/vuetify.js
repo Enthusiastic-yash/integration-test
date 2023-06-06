@@ -23,6 +23,8 @@ export default createVuetify({
           'lighGreen': '#BCED24',
           'darkGreen': '#3AD16C',
           'blackText': '#0D0033',
+          'circleGray': '#C4C4C4',
+
 
         },
       },

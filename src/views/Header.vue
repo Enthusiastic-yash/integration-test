@@ -1,7 +1,7 @@
 <template>
     <!-- TopBar Section -->
     <v-container fluid class="pa-0">
-        <v-row dense class="my-custom-row px-0  px-sm-3 px-md-15 bg-lightGray">
+        <v-row dense class="my-custom-row px-0  px-sm-3 px-md-15 custom-gray-color ">
             <v-col cols="12" sm="6" class="py-2  d-none d-sm-block">
                 <p class="my-custom-text-size text-blackText ">COVID-19 - <a href="#" class="text-blackText">Click
                         Here</a>
@@ -24,7 +24,7 @@
         <!-- Header Setion -->
         <div>
             <!-- logo -->
-            <v-toolbar class="px-5 px-sm-15" color="lightWhite">
+            <v-toolbar class="px-5 px-sm-15 custom-toolbar mx-auto mt-1" color="lightWhite">
                 <div class="d-flex align-center ">
                     <logo />
                     <v-toolbar-title class="font-weight-black text-h4 ml-2">LIVE</v-toolbar-title>
@@ -195,6 +195,11 @@ const dropItems = ref([
     height: 35px;
 }
 
+.custom-toolbar {
+    max-width: 1440px;
+
+}
+
 .my-custom-text-size {
     font-size: 13px;
     font-weight: 400;
@@ -202,6 +207,9 @@ const dropItems = ref([
 
 }
 
+.custom-gray-color {
+    background-color: rgba(211, 213, 215, 0.2);
+}
 
 @media (min-width: 1280px) {
     .v-navigation-drawer--temporary {

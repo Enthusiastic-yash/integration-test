@@ -29,30 +29,30 @@ window.onresize = handleResize;
     <v-container fluid class="custom-container pt-0">
         <div class="d-none d-md-flex">
 
-            <v-row dense no-gutters class="bg-lightGray custom-toolbar mx-auto d-flex align-center text-blackText">
+            <v-row dense no-gutters class="custom-gray-color custom-toolbar mx-auto d-flex align-center text-blackText">
                 <v-col cols="3" class="d-flex justify-center">
-                    <v-icon icon="mdi-check-circle-outline" color="lighGreen"></v-icon>
+                    <v-icon icon="mdi-check-circle-outline" class="pr-4" color="lighGreen"></v-icon>
                     Order Guarantee
 
                 </v-col>
                 <v-divider :thickness="1" class="border-opacity-25 custom-divider align-self-center" color="blackText"
                     vertical></v-divider>
                 <v-col cols="3" class="d-flex justify-center">
-                    <v-icon icon="mdi-check-circle-outline" color="lighGreen"></v-icon>
+                    <v-icon icon="mdi-check-circle-outline" class="pr-4" color="lighGreen"></v-icon>
                     Valid & Authentic Tickets
 
                 </v-col>
                 <v-divider :thickness="1" class="border-opacity-25 custom-divider align-self-center" color="blackText"
                     vertical></v-divider>
                 <v-col cols="3" class="d-flex justify-center">
-                    <v-icon icon="mdi-check-circle-outline" color="lighGreen"></v-icon>
+                    <v-icon icon="mdi-check-circle-outline" class="pr-4" color="lighGreen"></v-icon>
                     Secure & Safe Transaction
 
                 </v-col>
                 <v-divider :thickness="1" class="border-opacity-25 custom-divider align-self-center" color="blackText"
                     vertical></v-divider>
                 <v-col cols="3" class="d-flex justify-center">
-                    <v-icon icon="mdi-check-circle-outline" color="lighGreen"></v-icon>
+                    <v-icon icon="mdi-check-circle-outline" class="pr-4" color="lighGreen"></v-icon>
                     Customer Care Team
 
                 </v-col>
@@ -135,5 +135,9 @@ window.onresize = handleResize;
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
+}
+
+.custom-gray-color {
+    background-color: rgba(211, 213, 215, 0.2);
 }
 </style>
